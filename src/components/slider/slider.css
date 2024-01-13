@@ -1,5 +1,5 @@
  .slider-container {
-     height: calc(100vh - 70px);
+     height: calc(92vh - 70px);
      width: 100%;
      display: flex;
      position: relative;
@@ -31,7 +31,7 @@
  }
 
  .slider-wrapper {
-     height: 100px;
+     height: 100%;
      display: flex;
      transition: all 1s ease;
  }
