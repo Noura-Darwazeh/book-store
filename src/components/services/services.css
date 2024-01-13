@@ -1,0 +1,41 @@
+.services {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 20%;
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 60px;
+
+}
+
+/*media queris*/
+
+@media (max-width:920px) {
+    .services {
+        flex-wrap: wrap;
+        padding: 30px 15px;
+    }
+
+    .service-item {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width:520px) {
+    .service-item {
+        width: 70%;
+
+    }
+}
