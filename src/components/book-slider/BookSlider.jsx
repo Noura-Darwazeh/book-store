@@ -4,6 +4,7 @@ import { FaChevronLeft } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
 import { IoEyeSharp } from "react-icons/io5";
 import { FaCartPlus } from "react-icons/fa";
+import Rating from './Rating';
 
 const BookSlider = ({ data }) => {
 
@@ -28,7 +29,7 @@ const BookSlider = ({ data }) => {
           <div key={item.id} className='book-slide-item'>
             <img src={`/book/${item.image}`} alt={item.name} className='book-slide-item-img' />
             <h3 className='book-slide-item-title'>{item.title}</h3>
-            <div className='ratting'>ratting</div>
+            <Rating rating={item.rating} reviews={item.reviews} />
             <div className='book-slide-item-price'>${item.price}</div>
             <div className='book-slider-icons-wrapper'>
               <IoEyeSharp className='book-slider-icon-eye' />

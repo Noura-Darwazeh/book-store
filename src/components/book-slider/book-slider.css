@@ -75,3 +75,19 @@
     cursor: pointer;
     margin-right: 10px;
 }
+
+/*rating*/
+
+.rating {
+    color: rgb(254, 171, 17)
+}
+
+.star {
+    font-size: 22px;
+    margin: 0 2px;
+}
+
+.rating b {
+    color: gray;
+    margin: 0 12px;
+}
